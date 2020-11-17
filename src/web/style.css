@@ -1,0 +1,228 @@
+@import '../index.css';
+
+.fixInputSize {
+  font-size: 15px;
+  /* font-weight: bolder; */
+}
+.Center {
+  margin-right: 200px;
+}
+#forgotPwd form input,
+#login form input,
+#signUp form input,
+#signUp form select {
+  height: auto !important;
+  margin-bottom: 0 !important;
+  padding: auto !important;
+}
+
+#forgotPwd form label,
+#login form label,
+#signUp form label {
+  width: auto !important;
+  margin-top: 0 !important;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root {
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  padding: 4px 9px !important;
+  margin-bottom: -8px !important;
+}
+
+.css-1hwfws3 {
+  position: static !important;
+}
+ul {
+  list-style-type: none;
+}
+
+.breadcrumb {
+  display: inline-flex;
+  background: 0 0;
+  width: 100%;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+.breadcrumb li {
+  display: inline-block;
+}
+.breadcrumb li a {
+  display: block;
+  float: left;
+  color: #888888;
+}
+.breadcrumb li:after {
+  content: '/';
+  display: inline-block;
+  color: #888888;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.breadcrumb li:last-child:after {
+  content: ' ';
+  display: block;
+}
+
+.fontSize-8 {
+  font-size: 8pt;
+}
+
+.fontSize-9 {
+  font-size: 9pt;
+}
+
+.fontSize-10 {
+  font-size: 10pt;
+}
+
+.fontSize-11 {
+  font-size: 11pt;
+}
+
+.fontSize-12 {
+  font-size: 12pt;
+}
+
+.fontSize-13 {
+  font-size: 13pt;
+}
+
+.fontSize-14 {
+  font-size: 14pt;
+}
+
+.fontSize-15 {
+  font-size: 15pt;
+}
+
+.lineHeight-16 {
+  line-height: 1.6;
+}
+
+.sectionTitle {
+  color: #000;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.bit-area {
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  float: left;
+  padding: 27px 18px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+#pdp .bit-area .title {
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+#pdp .bit-area .number {
+  margin: 0px;
+  width: 100%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  float: left;
+}
+#pdp .bit-area .number span {
+  cursor: pointer;
+}
+#pdp .bit-area .number .minus,
+#pdp .bit-area .number .plus {
+  width: 20%;
+  height: auto;
+  background: #111931;
+  padding: 11px 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: block;
+  float: left;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.teklif {
+  background-color: cornflowerblue;
+  color: cornsilk;
+  font-size: 20px;
+  height: 40px;
+  padding-top: 10px;
+  display: inline-block;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+.timer {
+  padding: 9px 0;
+  border-bottom-left-radius: 8px;
+  max-width: 56%;
+  width: 100%;
+  border-right: 1px solid #fff;
+}
+.activeTenders .tenders-card a .card-bottom .timer ul {
+  width: 100%;
+}
+.activeTenders .tenders-card a .card-bottom .timer ul li {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  width: 18%;
+  max-width: 36px;
+  position: relative;
+}
+
+.priceNote {
+  display: inline-block;
+  color: #888;
+  font-weight: 500;
+}
+.searchBar form {
+  overflow: inherit !important;
+}
+
+.css-b8ldur-Input {
+  margin-top: -14px !important;
+}
+
+.col-md-12.login {
+  padding: 10px !important;
+}
+
+.header .member-login .login a span {
+  line-height: 28px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.container-wide {
+  width: 880px !important;
+}
+
+#profile-information ul li {
+  margin-right: 4px !important;
+}
+
+.swiper-container {
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+  margin-bottom: 45px !important;
+}
+
+#profile-information ul li input {
+  width: 80% !important;
+}
+
+#profile-information ul li select,
+#profile-information ul li ul li select {
+  width: 80% !important;
+}
+
+li .css-26l3qy-menu {
+  width: 80% !important;
+}
+
+.swiper-container .swiper-wrapper {
+  padding-bottom: 0;
+}
