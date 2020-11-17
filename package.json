@@ -2,6 +2,7 @@
     "name": "mern-stack",
     "version": "0.1.0",
     "private": true,
+    "homepage":"https://github.com/SoftwareEngAhmetDemir/uploadedReact/" ,
     "dependencies": {
         "@appgeist/react-select-material-ui": "^1.4.0",
         "@babel/plugin-proposal-export-default-from": "^7.12.1",
@@ -30,6 +31,7 @@
         "eslint-plugin-typescript": "^0.14.0",
         "express": "^4.17.1",
         "file-upload-with-preview": "^4.0.8",
+        "gh-pages": "^3.1.0",
         "highcharts": "^7.2.2",
         "i18next": "^17.1.0",
         "jsonwebtoken": "^8.5.1",
@@ -95,6 +97,9 @@
     },
     "scripts": {
         "start": "node backend/server.js",
+        "predeploy":"npm run build",
+        "deploy":"gh-pages -d build",
+
         "start-dev": "react-scripts start",
         "heroku-postbuild": "npm install --only=dev && npm install && npm run build && cd backend && npm install",
         "build": "react-scripts build",
